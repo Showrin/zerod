@@ -105,3 +105,7 @@ dist
 
 # Directory for build version of package
 lib
+
+# Directory for Jest
+.jest-cache
+.jest-coverage
