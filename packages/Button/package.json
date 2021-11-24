@@ -1,8 +1,16 @@
 {
-  "name": "button",
+  "name": "zerod-button",
   "version": "1.0.2",
   "main": "lib/index.js",
   "module": "src/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/showrin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:showrin/zrd-button.git",
+    "directory": "@showrin/zerod-button"
+  },
   "dependencies": {
     "react": "latest",
     "react-dom": "latest",
