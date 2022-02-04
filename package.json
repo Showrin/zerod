@@ -1,9 +1,20 @@
 {
-  "name": "zerod",
+  "name": "@zerod/zerod",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "description": "An interactive, open-source component library for reactjs projects. Lets build web applications with no dimension or zero dimension. That's why we named it ZeroD(0D).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Showrin/zerod.git"
+  },
+  "author": "Showrin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Showrin/zerod/issues"
+  },
+  "homepage": "https://github.com/Showrin/zerod#readme",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build-storybook": "build-storybook",
