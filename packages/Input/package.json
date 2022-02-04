@@ -3,14 +3,14 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {
+    "@zerodui/button": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "styled-components": "latest",
-    "@zerodui/button": "latest"
+    "styled-components": "latest"
   },
   "peerDependencies": {
     "react": "^16.0.0",
