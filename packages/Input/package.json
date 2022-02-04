@@ -1,5 +1,5 @@
 {
-  "name": "@zerod/input",
+  "name": "@zerodui/input",
   "publishConfig": {
     "access": "public"
   },

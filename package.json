@@ -1,5 +1,5 @@
 {
-  "name": "@zerod/zerod",
+  "name": "zerod",
   "private": true,
   "workspaces": [
     "packages/*"
