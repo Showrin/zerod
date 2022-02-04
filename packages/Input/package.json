@@ -1,5 +1,5 @@
 {
-  "name": "zerod-input",
+  "name": "@zerod/input",
   "version": "0.0.1",
   "main": "lib/index.js",
   "module": "src/index.js",
