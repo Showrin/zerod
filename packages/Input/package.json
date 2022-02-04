@@ -3,11 +3,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {
-    "@zerodui/button": "^0.0.5",
+    "@zerodui/button": "^0.0.6",
     "react": "latest",
     "react-dom": "latest",
     "styled-components": "latest"
