@@ -10,6 +10,6 @@ import styled from "styled-components";
 //   padding: 9px 36px;
 // `
 
-const Button = ({ children }) => <button>{children}</button>;
+const Button = ({ children }) => <button>{children} Hello</button>;
 
 export default Button;
