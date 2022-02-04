@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input renders correctly 1`] = `
-<input
+<button
   className=""
-  placeholder="user@gmail.com"
-/>
+>
+  Input
+</button>
 `;
