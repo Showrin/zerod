@@ -1,5 +1,6 @@
 {
   "name": "zerod",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
