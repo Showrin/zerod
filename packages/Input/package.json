@@ -7,7 +7,7 @@
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {
-    "@zerodui/button": "latest",
+    "@zerodui/button": "^0.0.5",
     "react": "latest",
     "react-dom": "latest",
     "styled-components": "latest"
@@ -16,5 +16,19 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "styled-components": "^5.0.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "jsx",
+      "js",
+      "json"
+    ],
+    "moduleNameMapper": {
+      "^@zerodui/button$": "<rootDir>/../../Button/src"
+    },
+    "rootDir": "src",
+    "testRegex": ".spec.js$",
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
   }
 }
